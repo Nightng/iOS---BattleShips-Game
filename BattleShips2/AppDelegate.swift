@@ -12,6 +12,16 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var model1 = BattleshipModel()
+    var model2 = BattleshipModel()
+    
+    func getModel1() -> BattleshipModel{
+        return model1
+    }
+    
+    func getModel2() -> BattleshipModel{
+        return model2
+    }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

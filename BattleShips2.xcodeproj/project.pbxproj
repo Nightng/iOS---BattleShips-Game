@@ -14,6 +14,9 @@
 		AFFDE0791DE1271F009C1635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFDE0771DE1271F009C1635 /* LaunchScreen.storyboard */; };
 		AFFDE0841DE12721009C1635 /* BattleShips2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDE0831DE12721009C1635 /* BattleShips2Tests.swift */; };
 		AFFDE08F1DE12722009C1635 /* BattleShips2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDE08E1DE12722009C1635 /* BattleShips2UITests.swift */; };
+		AFFDE09D1DE1279A009C1635 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDE09C1DE1279A009C1635 /* MyCollectionViewCell.swift */; };
+		AFFDE09F1DE133CA009C1635 /* BattleshipModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDE09E1DE133CA009C1635 /* BattleshipModel.swift */; };
+		AFFDE0A11DE135EF009C1635 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFDE0A01DE135EF009C1635 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AFFDE08A1DE12721009C1635 /* BattleShips2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleShips2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFDE08E1DE12722009C1635 /* BattleShips2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleShips2UITests.swift; sourceTree = "<group>"; };
 		AFFDE0901DE12722009C1635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFDE09C1DE1279A009C1635 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFFDE09E1DE133CA009C1635 /* BattleshipModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleshipModel.swift; sourceTree = "<group>"; };
+		AFFDE0A01DE135EF009C1635 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				AFFDE06E1DE1271F009C1635 /* AppDelegate.swift */,
 				AFFDE0701DE1271F009C1635 /* ViewController.swift */,
+				AFFDE0A01DE135EF009C1635 /* ViewController2.swift */,
+				AFFDE09E1DE133CA009C1635 /* BattleshipModel.swift */,
+				AFFDE09C1DE1279A009C1635 /* MyCollectionViewCell.swift */,
 				AFFDE0721DE1271F009C1635 /* Main.storyboard */,
 				AFFDE0751DE1271F009C1635 /* Assets.xcassets */,
 				AFFDE0771DE1271F009C1635 /* LaunchScreen.storyboard */,
@@ -262,8 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFDE0A11DE135EF009C1635 /* ViewController2.swift in Sources */,
 				AFFDE0711DE1271F009C1635 /* ViewController.swift in Sources */,
+				AFFDE09F1DE133CA009C1635 /* BattleshipModel.swift in Sources */,
 				AFFDE06F1DE1271F009C1635 /* AppDelegate.swift in Sources */,
+				AFFDE09D1DE1279A009C1635 /* MyCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
